@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bikash Kumar Kushwaha - Portfolio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header>
+        <div class="logo">Bikash Kumar Kushwaha</div>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#experience">Experience</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+  <!-- About Section -->
+<section id="about" class="hero-container">
+    <div class="hero-text">
+        <h1>Senior Executive – Quality Assurance</h1>
+        <p>I have 8.0+ years of experience in automobile industry at post of Sr.Executive in Quality Assurance with Suzuki Motor Gujarat | Plant Quality |Vehicle Development|Vehicle Inspection|Product Development | IFM | New Model Product audit (NPI SQR)|Product Auditor expertise for passengers Vehicle (SQR & DQR)|Sampling inspection |Daily And Monthly Report Preparation|Driving test|Defect Analysis | Data analysis|RCA analysis|ISO audit Document Preparation| 7QC|PPAP|APQP|SQA|SPC|MSA|WHY-WHY Analysis|IQS.</p>
+    </div>
+    <div class="hero-image">
+        <img src="{{ url_for('static', filename='profile.jpg') }}" alt="Bikash Kumar Kushwaha">
+    </div>
+</section>
+
+<!-- Core Skills Section (Interactive Pill Badges) -->
+    <section id="skills">
+        <h2>Core Skills & Technical Expertise</h2>
+        <div class="skills-pills-container">
+           <span class="skill-pill"> | Final Inspection</span>
+            <span class="skill-pill"> | RCA</span>
+            <span class="skill-pill"> | 8D</span>
+            <span class="skill-pill"> | EV Vehicle</span>
+            <span class="skill-pill"> | SAP PM</span>
+            <span class="skill-pill"> | Six Sigma Yellow Belt</span>
+            <span class="skill-pill"> | EV Vehicle Evaluation</span>
+            <span class="skill-pill"> | Process Improvement</span>
+            <span class="skill-pill"> | Product Development</span>
+            <span class="skill-pill"> | Poka Yoke</span>
+            <span class="skill-pill"> | APQP</span>
+            <span class="skill-pill"> | Customer Quality</span>
+            <span class="skill-pill"> | 7QC</span>
+            <span class="skill-pill"> | SPC</span>
+            <span class="skill-pill"> | MSA</span>
+            <span class="skill-pill"> | PPAP</span>
+            <span class="skill-pill"> | Data Analysis</span>
+            <span class="skill-pill"> | Why-Why Analysis</span>
+            <span class="skill-pill"> | Defect Analysis</span>
+            <span class="skill-pill"> | SQA</span>
+            <span class="skill-pill"> | Product Audit</span>
+            <span class="skill-pill"> | Process Audit</span>
+            <span class="skill-pill"> | 3D Scanning</span>
+        </div>
+    </section>
+
+    <!-- Professional Experience Section -->
+    <section id="experience">
+        <h2>Professional Experience</h2>
+        <div class="exp-card">
+            <h3>Senior Executive – Quality Assurance</h3>
+            <span>Suzuki Motor Gujarat Pvt. Ltd. / Maruti Suzuki India Ltd. (October 2018 – Present)</span>
+            <p>Handling vehicle development, product audits, SQR & DQR quality analysis, defect investigation, market-based customer complaint analysis, SOP/Sendai activities, and SQA.</p>
+            <ul>
+                <li><strong>Best Performer – E-Vitara SOP (2026):</strong> Achieved first-attempt Sendai completion.</li>
+                <li><strong>Best Performer – Fronx SOP (2023):</strong> First-attempt Sendai completion.</li>
+                <li>Supported successful SOP launches for New Swift (2019), Dzire (2021), and Baleno (2022).</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <h2>Education & Qualifications</h2>
+        <div class="skills-grid">
+            <div class="skill-box">
+                <h3>M.Tech in AI & Data Science (Hybrid)</h3>
+                <p>IIT Patna (Pursuing)</p>
+            </div>
+            <div class="skill-box">
+                <h3>B.Tech in Mechanical (WILP)</h3>
+                <p>Shri Venkateshwara University, UP (2026) - 72%</p>
+            </div>
+            <div class="skill-box">
+                <h3>Diploma in Mechanical</h3>
+                <p>Govt. Polytechnic, Ferozepur, Punjab (2018) - 76%</p>
+            </div>
+        </div>
+    </section>
+
+<!-- Contact / Get in Touch Section -->
+    <section id="contact">
+        <h2>Get in Touch</h2>
+        <div class="contact-container">
+            <form action="#" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+
+            <!-- Contact Details & Social Links with Custom Logos/Symbols -->
+            <div class="contact-details-container" style="margin-top: 30px; display: flex; flex-direction: column; gap: 15px; background: linear-gradient(145deg, #131922, #10151c); padding: 25px; border-radius: 10px; border: 1px solid #2a3441;">
+
+                <!-- Permanent Location -->
+                <div class="contact-item" style="display: flex; align-items: flex-start; gap: 12px; color: #94a3b8; font-size: 1rem;">
+                    <span style="font-size: 1.2rem; min-width: 25px;">🏠</span>
+                    <div>
+                        <strong style="color: #ffffff;">Permanent Location:</strong> Bhatpar Rani, Deoria, Gorakhpur, UP, 274702
+                    </div>
+                </div>
+
+                <!-- Current Location -->
+                <div class="contact-item" style="display: flex; align-items: flex-start; gap: 12px; color: #94a3b8; font-size: 1rem;">
+                    <span style="font-size: 1.2rem; min-width: 25px;">📍</span>
+                    <div>
+                        <strong style="color: #ffffff;">Current Location:</strong> Mehsana, Ahmedabad, Gujarat, 384002
+                    </div>
+                </div>
+
+                <!-- Contact No -->
+                <div class="contact-item" style="display: flex; align-items: center; gap: 12px; color: #94a3b8; font-size: 1rem;">
+                    <span style="font-size: 1.2rem; min-width: 25px;">📞</span>
+                    <div>
+                        <strong style="color: #ffffff;">Contact No:</strong> <a href="tel:+918577865859" style="color: #dfb15b; text-decoration: none;">+91 8577865859</a>
+                    </div>
+                </div>
+
+                <!-- Email -->
+                <div class="contact-item" style="display: flex; align-items: center; gap: 12px; color: #94a3b8; font-size: 1rem;">
+                    <span style="font-size: 1.2rem; min-width: 25px;">✉️</span>
+                    <div>
+                        <strong style="color: #ffffff;">E-Mail:</strong> <a href="mailto:bikashkushwaha5859@gmail.com" style="color: #dfb15b; text-decoration: none;">bikashkushwaha5859@gmail.com</a>
+                    </div>
+                </div>
+
+                <!-- LinkedIn ID -->
+                <div class="contact-item" style="display: flex; align-items: center; gap: 12px; color: #94a3b8; font-size: 1rem;">
+                    <span style="font-size: 1.2rem; min-width: 25px;">🔗</span>
+                    <div>
+                        <strong style="color: #ffffff;">LinkedIn:</strong> <a href="https://www.linkedin.com/in/bikash-kumar-kushwaha-381500188" target="_blank" style="color: #dfb15b; text-decoration: none;">bikash-kumar-kushwaha-381500188</a>
+                    </div>
+                </div>
+
+                <!-- Instagram ID -->
+                <div class="contact-item" style="display: flex; align-items: center; gap: 12px; color: #94a3b8; font-size: 1rem;">
+                    <span style="font-size: 1.2rem; min-width: 25px;">📷</span>
+                    <div>
+                        <strong style="color: #ffffff;">Instagram:</strong> <a href="https://www.instagram.com/pushkar_bikash2704?obrf=MWJodmJzOWc5cjR1Zg==" target="_blank" style="color: #dfb15b; text-decoration: none;">pushkar_bikash2704</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Bikash Kumar Kushwaha. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
