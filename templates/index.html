@@ -68,7 +68,7 @@
     <section id="about" class="hero-container">
         <div class="hero-text">
             <h1>Senior Executive – Quality Assurance</h1>
-            <p>Results-driven <strong>Senior Executive in Quality Assurance</strong> with <strong>8.0+ years of extensive experience</strong> in the automobile industry at <strong>Maruti Suzuki India Limited</strong>. Proven expertise in Plant Quality, New Model Vehicle Development, SQR & DQR Product Audits, and Vehicle Dynamic Testing (EV & Gasoline). Proficient in driving quality assurance standards through 8D, APQP, PPAP, SPC, MSA, 7QC tools, and RCA/Why-Why analysis. Adept at managing SAP PM workflows, preparing BRM/MRM reports, leading cross-functional teams (CFT) for defect analysis and closure, and maintaining ISO audit compliances for seamless product launches.</p>
+            <p>Results-driven <strong>Senior Executive – Quality Assurance</strong> with <strong>8.0+ years of extensive experience</strong> in the automobile industry at <strong>Maruti Suzuki India Limited</strong>. Proven expertise in Plant Quality, New Model Vehicle Development, SQR & DQR Product Audits, and Vehicle Dynamic Testing (EV & Gasoline). Proficient in driving quality assurance standards through 8D, APQP, PPAP, SPC, MSA, 7QC tools, and RCA/Why-Why analysis. Adept at managing SAP PM workflows, preparing BRM/MRM reports, leading cross-functional teams (CFT) for defect analysis and closure, and maintaining ISO audit compliances for seamless product launches.</p>
         </div>
         <div class="hero-image">
             <img src="{{ url_for('static', filename='profile.jpg') }}" alt="Bikash Kumar Kushwaha">
@@ -308,45 +308,94 @@
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact">
-        <h2>Get in Touch</h2>
-        <div class="contact-container">
-            <form action="#" method="POST">
-                <input type="text" name="name" placeholder="Your Name" required>
-                <input type="email" name="email" placeholder="Your Email" required>
-                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
-                <button type="submit">Send Message</button>
-            </form>
+<!-- Contact Section -->
+<section id="contact">
+    <h2>Get in Touch</h2>
+    <div class="contact-container">
+        <form action="#" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
 
-            <div class="contact-details-container" style="margin-top: 30px; display: flex; flex-direction: column; gap: 15px; background: linear-gradient(145deg, #131922, #10151c); padding: 25px; border-radius: 10px; border: 1px solid #2a3441;">
-                <div class="contact-item" style="display: flex; align-items: flex-start; gap: 12px; color: #94a3b8; font-size: 1rem;">
-                    <span style="font-size: 1.2rem; min-width: 25px;">🏠</span>
-                    <div><strong style="color: #ffffff;">Permanent Location:</strong> Bhatpar Rani, Deoria, Gorakhpur, UP, 274702</div>
-                </div>
-                <div class="contact-item" style="display: flex; align-items: flex-start; gap: 12px; color: #94a3b8; font-size: 1rem;">
-                    <span style="font-size: 1.2rem; min-width: 25px;">📍</span>
-                    <div><strong style="color: #ffffff;">Current Location:</strong> Mehsana, Ahmedabad, Gujarat, 384002</div>
-                </div>
-                <div class="contact-item" style="display: flex; align-items: center; gap: 12px; color: #94a3b8; font-size: 1rem;">
-                    <span style="font-size: 1.2rem; min-width: 25px;">📞</span>
-                    <div><strong style="color: #ffffff;">Contact No:</strong> <a href="tel:+918577865859" style="color: #dfb15b; text-decoration: none;">+91 8577865859</a></div>
-                </div>
-                <div class="contact-item" style="display: flex; align-items: center; gap: 12px; color: #94a3b8; font-size: 1rem;">
-                    <span style="font-size: 1.2rem; min-width: 25px;">✉️</span>
-                    <div><strong style="color: #ffffff;">E-Mail:</strong> <a href="mailto:bikashkushwaha5859@gmail.com" style="color: #dfb15b; text-decoration: none;">bikashkushwaha5859@gmail.com</a></div>
-                </div>
-                <div class="contact-item" style="display: flex; align-items: center; gap: 12px; color: #94a3b8; font-size: 1rem;">
-                    <span style="font-size: 1.2rem; min-width: 25px;">🔗</span>
-                    <div><strong style="color: #ffffff;">LinkedIn:</strong> <a href="https://www.linkedin.com/in/bikash-kumar-kushwaha-381500188" target="_blank" style="color: #dfb15b; text-decoration: none;">bikash-kumar-kushwaha-381500188</a></div>
-                </div>
-                <div class="current-item" style="display: flex; align-items: center; gap: 12px; color: #94a3b8; font-size: 1rem;">
-                    <span style="font-size: 1.2rem; min-width: 25px;">📷</span>
-                    <div><strong style="color: #ffffff;">Instagram:</strong> <a href="https://www.instagram.com/pushkar_bikash2704?obrf=MWJodmJzOWc5cjR1Zg==" target="_blank" style="color: #dfb15b; text-decoration: none;">pushkar_bikash2704</a></div>
-                </div>
+        <div class="contact-details-container" style="margin-top: 30px; display: flex; flex-direction: column; gap: 15px; background: linear-gradient(145deg, #131922, #10151c); padding: 25px; border-radius: 10px; border: 1px solid #2a3441;">
+
+            <!-- Permanent Location -->
+            <div class="contact-item" style="display: flex; align-items: flex-start; gap: 12px; color: #94a3b8; font-size: 1rem;">
+                <span style="font-size: 1.2rem; min-width: 25px;">🏠</span>
+                <div><strong style="color: #ffffff;">Permanent Location:</strong> Bhatpar Rani, Deoria, Gorakhpur, UP, 274702</div>
             </div>
+
+            <!-- Current Location -->
+            <div class="contact-item" style="display: flex; align-items: flex-start; gap: 12px; color: #94a3b8; font-size: 1rem;">
+                <span style="font-size: 1.2rem; min-width: 25px;">📍</span>
+                <div><strong style="color: #ffffff;">Current Location:</strong> Mehsana, Ahmedabad, Gujarat, 384002</div>
+            </div>
+
+            <!-- Contact No -->
+            <div class="contact-item" style="display: flex; align-items: center; gap: 12px; color: #94a3b8; font-size: 1rem;">
+                <span style="font-size: 1.2rem; min-width: 25px;">📞</span>
+                <div><strong style="color: #ffffff;">Contact No:</strong> <a href="tel:+918577865859" style="color: #dfb15b; text-decoration: none;">+91 8577865859</a></div>
+            </div>
+
+            <!-- E-Mail -->
+            <div class="contact-item" style="display: flex; align-items: center; gap: 12px; color: #94a3b8; font-size: 1rem;">
+                <span style="font-size: 1.2rem; min-width: 25px;">✉️</span>
+                <div><strong style="color: #ffffff;">E-Mail:</strong> <a href="mailto:bikashkushwaha5859@gmail.com" style="color: #dfb15b; text-decoration: none;">bikashkushwaha5859@gmail.com</a></div>
+            </div>
+
+            <!-- LinkedIn -->
+            <div class="contact-item" style="display: flex; align-items: center; gap: 12px; color: #94a3b8; font-size: 1rem;">
+                <span style="font-size: 1.2rem; min-width: 25px;">🔗</span>
+                <div><strong style="color: #ffffff;">LinkedIn:</strong> <a href="https://www.linkedin.com/in/bikash-kumar-kushwaha-381500188" target="_blank" style="color: #dfb15b; text-decoration: none;">Bikash Kumar Kushwaha</a></div>
+            </div>
+
+            <!-- Instagram -->
+            <div class="contact-item" style="display: flex; align-items: center; gap: 12px; color: #94a3b8; font-size: 1rem;">
+                <span style="font-size: 1.2rem; min-width: 25px;">📷</span>
+                <div><strong style="color: #ffffff;">Instagram:</strong> <a href="https://www.instagram.com/pushkar_bikash2704?obrf=MWJodmJzOWc5cjR1Zg==" target="_blank" style="color: #dfb15b; text-decoration: none;">pushkar_bikash2704</a></div>
+            </div>
+
+            <!-- Date of Birth -->
+            <div class="contact-item" style="display: flex; align-items: center; gap: 12px; color: #94a3b8; font-size: 1rem;">
+                <span style="font-size: 1.2rem; min-width: 25px;">🎂</span>
+                <div><strong style="color: #ffffff;">Date of Birth:</strong> 2nd July 1999</div>
+            </div>
+
+            <!-- Languages Known -->
+            <div class="contact-item" style="display: flex; align-items: center; gap: 12px; color: #94a3b8; font-size: 1rem;">
+                <span style="font-size: 1.2rem; min-width: 25px;">🗣️</span>
+                <div><strong style="color: #ffffff;">Languages Known:</strong> English, Hindi</div>
+            </div>
+
+            <!-- Marital Status -->
+            <div class="contact-item" style="display: flex; align-items: center; gap: 12px; color: #94a3b8; font-size: 1rem;">
+                <span style="font-size: 1.2rem; min-width: 25px;">💍</span>
+                <div><strong style="color: #ffffff;">Marital Status:</strong> Single</div>
+            </div>
+
+            <!-- Highest Qualification -->
+            <div class="contact-item" style="display: flex; align-items: center; gap: 12px; color: #94a3b8; font-size: 1rem;">
+                <span style="font-size: 1.2rem; min-width: 25px;">🎓</span>
+                <div><strong style="color: #ffffff;">Highest Qualification:</strong> B.Tech in Mechanical Engineering</div>
+            </div>
+
+            <!-- Passport Number -->
+            <div class="contact-item" style="display: flex; align-items: center; gap: 12px; color: #94a3b8; font-size: 1rem;">
+                <span style="font-size: 1.2rem; min-width: 25px;">🛂</span>
+                <div><strong style="color: #ffffff;">Passport Number:</strong> S1318756</div>
+            </div>
+
+            <!-- Driving Licence -->
+            <div class="contact-item" style="display: flex; align-items: center; gap: 12px; color: #94a3b8; font-size: 1rem;">
+                <span style="font-size: 1.2rem; min-width: 25px;">🚘</span>
+                <div><strong style="color: #ffffff;">Driving Licence:</strong> UP52 200180008714 (LMV)</div>
+            </div>
+
         </div>
-    </section>
+    </div>
+</section>
 
     <footer>
         <p>&copy; 2026 Bikash Kumar Kushwaha. All rights reserved.</p>
